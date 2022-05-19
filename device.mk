@@ -58,14 +58,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PixelSetupWizardResTarget
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
-
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
