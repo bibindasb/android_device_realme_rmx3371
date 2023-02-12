@@ -517,4 +517,7 @@
         <item>105</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
+      <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">realme/RMX3371T2/RE54E4L1:13/TP1A.220905.001/S.fa9936-1a808-27802:user/release-keys</string>
+
 </resources>
