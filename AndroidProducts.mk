@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonades.mk
+    $(LOCAL_DIR)/aosp_rmx3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lemonades-user \
-    lineage_lemonades-userdebug \
-    lineage_lemonades-eng
+    aosp_rmx3371-user \
+    aosp_rmx3371-userdebug \
+    aosp_rmx3371-eng

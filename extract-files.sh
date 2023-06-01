@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=lemonades
+export DEVICE=rmx3371
 export DEVICE_COMMON=sm8250-common
-export VENDOR=oneplus
+export VENDOR=realme
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
