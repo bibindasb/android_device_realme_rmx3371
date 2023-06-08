@@ -27,7 +27,18 @@ odm/etc/camera/ashdr/ncf_pack.ncf
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
 
-# Camera sensors
+# Camera
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
+odm/etc/camera/config/hi846
+odm/etc/camera/config/imx471
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/ov02b
+odm/etc/camera/config/s5kgw1
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/camera_engmode.xml
+odm/etc/camera/settings_fdc.txt
 odm/lib64/camera/com.qti.sensor.hi846.so
 odm/lib64/camera/com.qti.sensor.imx471.so
 odm/lib64/camera/com.qti.sensor.ov02b.so
@@ -39,7 +50,38 @@ odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.sm8250_qtech_ov64b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
 odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
-odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
+
+# Charger
+odm/firmware/fastchg/136730/charging_thermal_config_default.txt
+odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/136858/charging_thermal_config_default.txt
+odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/136859/charging_thermal_config_default.txt
+odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/21619/charging_thermal_config_default.txt
+odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2161A/charging_thermal_config_default.txt
+odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2169A/charging_thermal_config_default.txt
+odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2169B/charging_thermal_config_default.txt
+odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
+
+# Display calibration data
+vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
+vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
+vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+
+# Display eye protection data
+odm/etc/samsung1024_ams662zs01_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_cinema_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_colorful_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_eyeprotect_data.xml
+odm/etc/samsung1024_ana6706_srgb_eyeprotect_data.xml
 
 # Fingerprint firmware
 odm/vendor/firmware/ancap64.b00
@@ -70,46 +112,28 @@ vendor/firmware/image/opluseid.b06
 vendor/firmware/image/opluseid.b07
 vendor/firmware/image/opluseid.mdt
 
-# Iris
-odm/etc/inparm/irissoft/inParm.lst
-odm/etc/inparm/irissoft/inParm10.txt
-odm/etc/inparm/irissoft/inParm11.txt
-odm/etc/inparm/irissoft/inParm12.txt
-odm/etc/inparm/irissoft/inParm14_a.txt
-odm/etc/inparm/irissoft/inParm14_b.txt
-odm/etc/inparm/irissoft/inParm14_c.txt
-odm/etc/inparm/irissoft/inParm16_center.txt
-odm/etc/inparm/irissoft/inParm16_down.txt
-odm/etc/inparm/irissoft/inParm16_up.txt
-odm/etc/inparm/irissoft/inParm17_center.txt
-odm/etc/inparm/irissoft/inParm17_down.txt
-odm/etc/inparm/irissoft/inParm17_up.txt
-odm/etc/inparm/irissoft/inParm18_center.txt
-odm/etc/inparm/irissoft/inParm18_down.txt
-odm/etc/inparm/irissoft/inParm18_up.txt
-odm/etc/inparm/irissoft/inParm1_center.txt
-odm/etc/inparm/irissoft/inParm1_down.txt
-odm/etc/inparm/irissoft/inParm1_up.txt
-odm/etc/inparm/irissoft/inParm2_center.txt
-odm/etc/inparm/irissoft/inParm2_down.txt
-odm/etc/inparm/irissoft/inParm2_up.txt
-odm/etc/inparm/irissoft/inParm3_center.txt
-odm/etc/inparm/irissoft/inParm3_down.txt
-odm/etc/inparm/irissoft/inParm3_up.txt
-odm/etc/inparm/irissoft/inParm4_center.txt
-odm/etc/inparm/irissoft/inParm4_down.txt
-odm/etc/inparm/irissoft/inParm4_up.txt
-odm/etc/inparm/irissoft/inParm5_center.txt
-odm/etc/inparm/irissoft/inParm5_down.txt
-odm/etc/inparm/irissoft/inParm5_up.txt
-odm/etc/inparm/irissoft/inParm6_center.txt
-odm/etc/inparm/irissoft/inParm6_down.txt
-odm/etc/inparm/irissoft/inParm6_up.txt
-odm/etc/inparm/irissoft/inParm8_a.txt
-odm/etc/inparm/irissoft/inParm8_b.txt
-odm/etc/inparm/irissoft/inParm8_c.txt
-odm/etc/inparm/irissoft/mcfCheck.txt
-odm/etc/irissoft.fw
+# Graphics (Adreno firmware)
+vendor/firmware/a650_gmu.bin
+vendor/firmware/a650_sqe.fw
+vendor/firmware/a650_zap.b00
+vendor/firmware/a650_zap.b01
+vendor/firmware/a650_zap.b02
+vendor/firmware/a650_zap.elf
+vendor/firmware/a650_zap.mdt
+
+# IPA firmware
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+vendor/firmware/ipa_uc.b00
+vendor/firmware/ipa_uc.b01
+vendor/firmware/ipa_uc.b02
+vendor/firmware/ipa_uc.elf
+vendor/firmware/ipa_uc.mdt
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
@@ -118,6 +142,14 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
+
+# Listen
+vendor/lib/hw/sound_trigger.primary.kona.so
+
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
+odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # Sensors
 odm/etc/sensor/config/kona_qrd_ak991x_0.json
@@ -134,5 +166,10 @@ odm/etc/sensor/config/kona_qrd_mn29005.json
 odm/etc/sensor/config/kona_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
 
-# WiFi
+# Touchscreen firmware
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG.img
+odm/firmware/tp/21623/FW_FT3658U_SAMSUNG_FAE.img
+odm/firmware/tp/21623/LIMIT_FT3658U_SAMSUNG.img
+
+# Wifi
 odm/etc/wifi/bdwlan.elf
