@@ -195,13 +195,13 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>4</item>
-        <item>12</item>
+        <item>3</item>
+        <item>7</item>
+        <item>15</item>
         <item>20</item>
         <item>28</item>
-        <item>47</item>
-        <item>63</item>
+        <item>49</item>
+        <item>65</item>
         <item>86</item>
         <item>150</item>
         <item>160</item>
@@ -236,11 +236,11 @@
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
         <item>2.0487</item>
-        <item>4.8394</item>
-        <item>15.2619</item>
-        <item>30.2619</item>
-        <item>46.671</item>
-        <item>65.95</item>
+        <item>10.8394</item>
+        <item>20.2619</item>
+        <item>39.2619</item>
+        <item>49.671</item>
+        <item>69.95</item>
         <item>80.46</item>
         <item>84.38</item>
         <item>89.51</item>
@@ -281,40 +281,40 @@
         <item>6.69</item>
         <item>8.07</item>
         <item>9.65</item>
-        <item>11.32</item>
-        <item>13.26</item>
-        <item>15.59</item>
+        <item>12.32</item>
+        <item>15.26</item>
+        <item>16.59</item>
         <item>18.14</item>
         <item>20.68</item>
-        <item>23.58</item>
+        <item>25.58</item>
         <item>26.38</item>
         <item>29.67</item>
         <item>32.83</item>
         <item>36.03</item>
         <item>39.31</item>
-        <item>43.8</item>
+        <item>46.8</item>
         <item>47.95</item>
         <item>52.08</item>
         <item>56.86</item>
         <item>61.83</item>
         <item>67.93</item>
-        <item>73.37</item>
+        <item>78.37</item>
         <item>79.96</item>
         <item>86.15</item>
-        <item>90.75</item>
+        <item>96.75</item>
         <item>97.83</item>
         <item>105.67</item>
         <item>112.79</item>
-        <item>120.33</item>
+        <item>125.33</item>
         <item>127.82</item>
         <item>135.71</item>
         <item>145.0</item>
-        <item>153.32</item>
+        <item>155.32</item>
         <item>161.78</item>
         <item>170.61</item>
         <item>179.7</item>
         <item>190.25</item>
-        <item>201.81</item>
+        <item>205.81</item>
         <item>212.07</item>
         <item>222.79</item>
         <item>234.01</item>
@@ -343,21 +343,21 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
         <item>0</item>
-        <item>4</item>
         <item>8</item>
-        <item>12</item>
+        <item>10</item>
+        <item>15</item>
         <item>16</item>
         <item>20</item>
         <item>24</item>
-        <item>28</item>
+        <item>29</item>
         <item>32</item>
         <item>36</item>
-        <item>40</item>
-        <item>44</item>
-        <item>48</item>
-        <item>52</item>
-        <item>56</item>
+        <item>50</item>
+        <item>54</item>
+        <item>58</item>
+        <item>59</item>
         <item>60</item>
+        <item>62</item>
         <item>64</item>
         <item>68</item>
         <item>72</item>
@@ -436,8 +436,8 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3500</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
@@ -510,8 +510,8 @@
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item>  <!-- <item>sensorLocationX</item> -->
-        <item>2184</item> <!-- <item>sensorLocationY</item> -->
-        <item>95</item>   <!-- <item>sensorRadius</item> -->
+        <item>2194</item> <!-- <item>sensorLocationY</item> -->
+        <item>105</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
 </resources>
