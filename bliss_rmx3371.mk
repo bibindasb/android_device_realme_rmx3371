@@ -12,9 +12,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/rmx3371/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_rmx3371
+
+# Enable extra UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Enable Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Set Boot Animination Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+
+
+PRODUCT_NAME := bliss_rmx3371
 PRODUCT_DEVICE := rmx3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
