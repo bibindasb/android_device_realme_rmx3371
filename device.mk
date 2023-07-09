@@ -43,16 +43,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom.ramdisk
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
-
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-bliss
 
 # Ih8sn
 PRODUCT_PACKAGES += \

@@ -12,21 +12,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/rmx3371/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
 
-# Enable extra UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
-
-# Enable Face Unlock
-TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Set Boot Animination Resolution
+TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# PixysOS Flags
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 
 
-PRODUCT_NAME := bliss_rmx3371
+PRODUCT_NAME := pixys_rmx3371
 PRODUCT_DEVICE := rmx3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
