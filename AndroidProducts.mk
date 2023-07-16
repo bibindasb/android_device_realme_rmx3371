@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rmx3371.mk
+    $(LOCAL_DIR)/blaze_rmx3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rmx3371-user \
-    aosp_rmx3371-userdebug \
-    aosp_rmx3371-eng
+    blaze_rmx3371-user \
+    blaze_rmx3371-userdebug \
+    blaze_rmx3371-eng
