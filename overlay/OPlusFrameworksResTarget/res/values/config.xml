@@ -32,18 +32,18 @@
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>5</item>
+        <item>10</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>5</item>
+        <item>10</item>
     </integer-array>
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>5</item>
+        <item>10</item>
     </integer-array>
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
@@ -508,7 +508,12 @@
     <integer name="config_defaultPeakRefreshRate">120</integer>
 
      <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
-    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
+    <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
+
+     <!-- Defines the sysfs attribute path used by the device
+         to enable/disable DC dimming. -->
+    <string name="config_deviceDcDimmingSysfsNode">/sys/kernel/oplus_display/dimlayer_bl_en</string>
+
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
@@ -516,8 +521,5 @@
         <item>2194</item> <!-- <item>sensorLocationY</item> -->
         <item>105</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
-
-      <!-- Fingerprint from stock ROM -->
-    <string name="config_stockFingerprint" translatable="false">realme/RMX3371T2/RE54E4L1:13/TP1A.220905.001/S.fa9936-1a808-27802:user/release-keys</string>
 
 </resources>

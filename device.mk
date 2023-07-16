@@ -51,10 +51,6 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-bliss
 
-# Ih8sn
-PRODUCT_PACKAGES += \
-    ih8sn
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
@@ -63,9 +59,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Soong namespaces-2
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/ih8sn
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8250-common/common.mk)

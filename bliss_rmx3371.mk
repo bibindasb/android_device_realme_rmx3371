@@ -15,7 +15,10 @@ $(call inherit-product, device/realme/rmx3371/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 
-# Enable extra UDFPS animations
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+# UDFPS Animations
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Enable Face Unlock
@@ -38,5 +41,14 @@ PRODUCT_SYSTEM_DEVICE := RE54E4L1
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="RMX3371-user 13 TP1A.220905.001 S.cd290a_d5d0-4 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+BUILD_FINGERPRINT := realme/RMX3371/RE54E4L1:13/TP1A.220905.001/S.cd290a_d5d0-4:user/release-keys
+
+
+# PixelLauncher Mod
+$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
+ICONS_VARIANT := true
+PIXEL_LAUNCHER_VARIANT := glance12
