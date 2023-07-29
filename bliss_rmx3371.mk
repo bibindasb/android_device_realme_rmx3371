@@ -46,9 +46,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := realme/RMX3371/RE54E4L1:13/TP1A.220905.001/S.cd290a_d5d0-4:user/release-keys
-
-
-# PixelLauncher Mod
-$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
-ICONS_VARIANT := true
-PIXEL_LAUNCHER_VARIANT := glance12

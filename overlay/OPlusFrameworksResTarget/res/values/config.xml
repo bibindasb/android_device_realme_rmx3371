@@ -437,10 +437,11 @@
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">2500</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">3500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
+
 
     <!-- The type of the light sensor to be used by the display framework for things like
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
@@ -519,7 +520,7 @@
     <integer-array name="config_udfps_sensor_props" translatable="false" >
         <item>540</item>  <!-- <item>sensorLocationX</item> -->
         <item>2194</item> <!-- <item>sensorLocationY</item> -->
-        <item>105</item>   <!-- <item>sensorRadius</item> -->
+        <item>95</item>   <!-- <item>sensorRadius</item> -->
     </integer-array>
 
 </resources>

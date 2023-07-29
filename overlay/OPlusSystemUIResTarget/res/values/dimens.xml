@@ -24,9 +24,6 @@
     <dimen name="keyguard_carrier_text_margin">@dimen/status_bar_padding_start</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
-    <dimen name="physical_power_button_center_screen_location_y">900px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">990px</dimen>
         
-    <!-- Udfps animation size-->
-    <dimen name="udfps_animation_size">160dp</dimen>
-
 </resources>
