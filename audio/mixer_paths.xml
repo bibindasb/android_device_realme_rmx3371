@@ -381,11 +381,11 @@
     <!-- Volume controls -->
     <ctl name="LINEOUT1 Volume" value="13" />
     <ctl name="LINEOUT2 Volume" value="13" />
-    <ctl name="RX_RX0 Digital Volume" value="84" />
-    <ctl name="RX_RX1 Digital Volume" value="84" />
-    <ctl name="RX_RX2 Digital Volume" value="84" />
-    <ctl name="HPHL Volume" value="20" />
-    <ctl name="HPHR Volume" value="20" />
+    <ctl name="RX_RX0 Digital Volume" value="95" />
+    <ctl name="RX_RX1 Digital Volume" value="95" />
+    <ctl name="RX_RX2 Digital Volume" value="95" />
+    <ctl name="HPHL Volume" value="23" />
+    <ctl name="HPHR Volume" value="23" />
     <ctl name="EAR PA Gain" value="G_6_DB" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
@@ -397,10 +397,10 @@
     <ctl name="RX5 Digital Volume" value="84" />
     <ctl name="RX6 Digital Volume" value="84" />
     <ctl name="RX7 Digital Volume" value="84" />
-    <ctl name="ADC1 Volume" value="12" />
-    <ctl name="ADC2 Volume" value="12" />
+    <ctl name="ADC1 Volume" value="15" />
+    <ctl name="ADC2 Volume" value="15" />
     <ctl name="ADC3 Volume" value="0" />
-    <ctl name="ADC4 Volume" value="12" />
+    <ctl name="ADC4 Volume" value="15" />
     <ctl name="DEC0 Volume" value="102" />
     <ctl name="DEC1 Volume" value="102" />
     <ctl name="DEC2 Volume" value="102" />
@@ -776,14 +776,14 @@
     <ctl name="TX DMIC MUX7" value="ZERO" />
     <ctl name="TX SMIC MUX7" value="ZERO" />
 
-    <ctl name="TX_DEC0 Volume" value="84" />
-    <ctl name="TX_DEC1 Volume" value="84" />
-    <ctl name="TX_DEC2 Volume" value="84" />
-    <ctl name="TX_DEC3 Volume" value="84" />
-    <ctl name="TX_DEC4 Volume" value="84" />
-    <ctl name="TX_DEC5 Volume" value="84" />
-    <ctl name="TX_DEC6 Volume" value="84" />
-    <ctl name="TX_DEC7 Volume" value="84" />
+    <ctl name="TX_DEC0 Volume" value="95" />
+    <ctl name="TX_DEC1 Volume" value="95" />
+    <ctl name="TX_DEC2 Volume" value="95" />
+    <ctl name="TX_DEC3 Volume" value="95" />
+    <ctl name="TX_DEC4 Volume" value="95" />
+    <ctl name="TX_DEC5 Volume" value="95" />
+    <ctl name="TX_DEC6 Volume" value="95" />
+    <ctl name="TX_DEC7 Volume" value="95" />
 
     <ctl name="HDR12 MUX" value="NO_HDR12" />
     <ctl name="HDR34 MUX" value="NO_HDR34" />
