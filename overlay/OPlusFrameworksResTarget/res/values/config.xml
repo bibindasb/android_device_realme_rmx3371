@@ -498,10 +498,6 @@
     </integer-array>
 
 
-    <!-- The type of the light sensor to be used by the display framework for things like
-         auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
-    <string name="config_displayLightSensorType" translatable="false">qti.sensor.wise_light</string>
-
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
          {@link android.util.PathParser}.
