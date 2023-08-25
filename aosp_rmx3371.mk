@@ -15,8 +15,10 @@ $(call inherit-product, device/realme/rmx3371/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 
+TARGET_GAPPS_ARCH := arm64
+FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 
 # Extra FOD Animation and FOD ICONS
 TARGET_HAS_UDFPS := true
@@ -27,7 +29,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 
 
-PRODUCT_NAME := bliss_rmx3371
+PRODUCT_NAME := aosp_rmx3371
 PRODUCT_DEVICE := rmx3371
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
