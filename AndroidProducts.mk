@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_rmx3371.mk
+    $(LOCAL_DIR)/p404_rmx3371.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_rmx3371-user \
-    bliss_rmx3371-userdebug \
-    bliss_rmx3371-eng
+    p404_rmx3371-user \
+    p404_rmx3371-userdebug \
+    p404_rmx3371-eng

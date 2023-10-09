@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
     
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-bliss
+    $(LOCAL_PATH)/overlay-p404
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
